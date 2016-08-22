@@ -1,0 +1,52 @@
+body {
+	background-image: url("http://www.technocrazed.com/wp-content/uploads/2015/12/Landscape-wallpaper-11.jpg");
+	background-size: 100% auto;
+}
+
+#weather-app {
+	position: relative;
+	display: table;
+	margin: 5% auto auto auto;
+	text-align: center;
+	font-family: 'Raleway', sans-seriff;
+	color: #fff;
+}
+
+#title1, #title2 {
+	font-size: 500%;
+	font-weight: bold;
+}
+
+#location {
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 300%;
+}
+
+#weather {
+	font-weight: bold;
+	font-size: 300%;
+}
+
+#weather-icon {
+	font-size: 1200%;
+}
+
+#temp {
+	font-weight: bold;
+	font-size: 300%;
+}
+
+#convert-Temp {
+	background-color: #3366ff;
+	border-radius: 5px;
+	border-color: #000066;
+}
+
+button:focus {
+	outline: 0;
+}
+
+button:active {
+	box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+}
